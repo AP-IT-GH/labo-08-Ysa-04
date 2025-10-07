@@ -1,0 +1,115 @@
+:root {
+    --color-1: #0d6efd;
+    --color-2: #198754;
+    --color-3: #0dcaf0;
+    --color-4: #ffc107;
+    --color-5: #dc3545;
+    --color-6: #ffffff;
+    --background-color-list: rgb(181, 180, 180);
+    --background-color-xxl: #cf04beb4; 
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+h2 {
+    font-size: 1.5rem;
+}
+
+body {
+    padding: 10px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+li {
+    text-align: center;
+    background-color: var(--background-color-list);
+    padding: 5px 20px 5px 20px;
+    border: 1px solid grey;
+    flex-grow: 1;
+}
+
+/* Standard: */
+.lijst-1 {
+    display: flex; 
+    flex-direction: row;
+}
+
+.kleur-1{
+    color: var(--color-1);
+}
+
+.kleur-2 {
+    color: var(--color-2);
+}
+
+.kleur-3 {
+    color: var(--color-3);
+}
+
+.kleur-4 {
+    color: var(--color-4);
+}
+
+.kleur-5 {
+    color: var(--color-5);
+}
+
+.kleur-6 {
+    color: var(--color-6);
+}
+
+/* small: */
+@media (min-width: 576px) {
+    .lijst-2 {
+        display: flex; 
+        flex-direction: row;
+    }
+}
+
+/* medium */
+@media (min-width: 768px) {
+    .lijst-3 {
+        display: flex; 
+        flex-direction: row;
+    }
+}
+
+/* large */
+@media (min-width: 992px ) {
+    .lijst-4 {
+        display: flex; 
+        flex-direction: row;
+    }
+}
+
+/* x-large*/
+@media (min-width: 1200px ) {
+    .lijst-5 {
+        display: flex; 
+        flex-direction: row;
+    }
+}
+
+/* xx-large */
+@media (min-width: 1400px ) {
+    .lijst-6 {
+        display: flex; 
+        flex-direction: row;
+    }
+
+    .kleur-6 {
+        border: none;
+         background-color: var(--background-color-xxl);
+    }
+}
+
+
+
+
